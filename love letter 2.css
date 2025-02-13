@@ -10,6 +10,58 @@
   background-color: #d9534f; /* Warm romantic red */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
+/* Existing styles */
+
+#envelope {
+  position: relative;
+  width: 280px;
+  height: 180px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 150px;
+  background-color: #d9534f;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive styles for iPhone 15 */
+@media screen and (max-width: 430px) {
+  #envelope {
+    width: 90%;
+    height: auto;
+    top: 100px;
+  }
+
+  .letter {
+    width: 85%;
+    height: auto;
+    font-size: 1rem;
+  }
+
+  .words {
+    font-size: 0.9rem;
+  }
+
+  .words.line1 {
+    font-size: 0.6rem;
+  }
+
+  .words.line2, .words.line3, .words.line4 {
+    font-size: 1rem;
+  }
+
+  .heart {
+    width: 40px;
+    height: 40px;
+  }
+
+  .reset button {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
 
 .front {
   position: absolute;
